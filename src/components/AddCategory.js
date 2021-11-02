@@ -28,7 +28,7 @@ export const AddCategory = ({ setCategories }) => {
                 <input
                     type="text"
                     value={InputValue}
-                    onChange={handleInputChange}
+                    onChange={handleInputChange} // Cuando cambie hace esta funcion
                 />
             </form>
         </>
